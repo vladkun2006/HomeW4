@@ -85,7 +85,7 @@ img {
   color: var(--blue);
 }
 .logo-header {
-  color: var(black);
+  color: var(--black);
 }
 .nav {
   display: flex;
@@ -341,6 +341,7 @@ img {
 }
 .container-footer{
 display: flex;
+align-items: baseline;
 }
 .address-container{
   margin-right: 70px;
@@ -381,10 +382,7 @@ display: flex;
 .footer-contacts:focus {
   color: var(--blue);
 }
-.social-footer{
-  padding-top: 15px;
-  /* padding-bottom: 96px; */
-}
+
 .social-footer-title{
   margin-bottom: 20px;
   font-weight: 700;
@@ -456,21 +454,21 @@ display: flex;
   margin-right: -30px;
   margin-bottom: -30px;
 }
-.project-item {
+.project-link {
   flex-basis: calc((100% - 90px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.project-item:hover,
-.project-item:focus {
+.project-link:hover,
+.project-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-desc-container {
   padding: 20px 24px;
-  border-right: 1px solid var(project-border-color);
-  border-bottom: 1px solid var(project-border-color);
-  border-left: 1px solid var(project-border-color);
+  border-right: 1px solid var(--project-border-color);
+  border-bottom: 1px solid var(--project-border-color);
+  border-left: 1px solid var(--project-border-color);
 }
 .project-title {
   margin-bottom: 4px;
